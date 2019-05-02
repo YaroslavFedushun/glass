@@ -1,0 +1,115 @@
+.text-center{
+  text-align: center;
+}
+.headerBlock{
+  margin-top: 20px;
+  padding: 1px 0px 60px 0px;
+}
+.menuItem{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  color: black;
+}
+.menuList{
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 1.2em;
+  font-weight: 800;
+  text-transform: uppercase
+
+}
+.logoTitle{
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 68px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: #0c0c0c;
+}
+.headerLogoBlock p{
+  color: #0c0c0c;
+  font-family: "Comfortaa", Sans-serif;
+  line-height: 12px;
+  margin-bottom: 60px;
+}
+.headerButton{
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3.7px;
+  color: #0c0c0c;
+  background-color: rgba(142,142,142,0.82);
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+
+}
+.backgroundTitle{
+  height: 500px;
+  background-color: rgba(147,147,147,0);
+  background-image: url(https://i.imgur.com/PBeES81.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  padding: 150px 0px 150px 0px;
+  background-attachment: fixed;
+}
+.titleBlock{
+  background: #201e1e;
+  color: aliceblue;
+}
+.titleBlock h1{
+  font-family: "Roboto Slab", Sans-serif;
+  font-weight: 600;
+  text-shadow: -3px 0px 10px rgba(0,0,0,0.3);
+  font-size: 42px;
+  margin-left: 10px;
+
+}
+.titleBlock h5{
+  font-family: "Comfortaa", Sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.titleInform{
+  font-family: "Comfortaa", Sans-serif;
+}
+.headerMenuPhone{
+  display: none;
+  position: fixed;
+  z-index: 100;
+}
+@media only screen
+and (max-width: 575px) {
+  .backgroundTitle{
+    padding: 0px 0px 150px 0px;
+  }
+}
+@media only screen
+and (max-width: 1100px) {
+  .headerMenuPhone{
+    display: block;
+  }
+  .headerMenu{
+    display: none;
+  }
+  .headerBlock{
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+@media only screen
+and (max-width: 800px) {
+  .backgroundTitle{
+    height: 600px;
+    padding: 100px 0px 150px 0px;
+
+  }
+
+}

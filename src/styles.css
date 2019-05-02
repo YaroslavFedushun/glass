@@ -1,1 +1,118 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+  width: 840px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.flex-grid {
+  display: flex;
+}
+
+.flex-grid .col {
+  flex: 1;
+}
+
+.navBlock {
+  justify-content: space-between;
+}
+
+.menuBlock {
+  list-style: none;
+  justify-content: space-between;
+  text-decoration: none;
+  padding-inline-start: 32px;
+}
+
+.menuBlock__link {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Tahoma";
+  color: black;
+  font-weight: bold;
+  line-height: 1.188;
+}
+
+.logoBlock {
+  padding-top: 7px;
+}
+
+.articleBlock {
+  background: #f0f0f0;
+  padding: 15px 27px;
+  margin-top: 15px;
+}
+
+.articleImgBlock__img {
+  padding-right: 18px;
+}
+
+.articleBlock__title {
+  font-size: 21px;
+  font-family: "Tahoma";
+  color: black;
+  font-weight: bold;
+  line-height: 1.333;
+  margin: 0 0 10px 0;
+}
+
+.articleBlock__text {
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: #8d8d8d;
+  line-height: 1.429;
+  margin-top: 5px;
+}
+
+.articleBlock__btn {
+  padding: 3px 23px;
+  background: #d13e35;
+  border-radius: 3px;
+  border: none;
+  font-size: 13px;
+  font-family: "Tahoma";
+  color: #f0f0f0;
+  line-height: 1.692;
+}
+
+.articleBlock__title--h2 {
+  font-size: 18px;
+  font-family: "Tahoma";
+  color: black;
+  font-weight: bold;
+  line-height: 1.056;
+  margin-top: 19px;
+  margin-bottom: 5px;
+}
+
+.articleBlock__strategic-list {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: black;
+  font-style: italic;
+  line-height: 1.286;
+  margin: 27px 23px 36px 10px;
+}
+
+.strategic-list_block-text {
+  margin: 5px;
+  padding: 4px 0px 0px 5px;
+}
+
+.icon-suitcase {
+  height: 37px;
+  margin: 3px 6px 0px 12px;
+}
+
+.icon-calculate {
+  height: 42px;
+  margin: 2px 7px 0px 18px;
+}
+.icon-people{
+  margin: 2px 0px 6px 0px;
+}
+.icon-basket{
+  margin: 0px 8px 5px 0px;
+}
+/*# sourceMappingURL=styles.css.map */

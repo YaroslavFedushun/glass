@@ -1,0 +1,73 @@
+<app-phone-nav></app-phone-nav>
+
+<div class="headerBlock text-center">
+  <div class="headerMenu">
+    <ul class="menuList">
+      <li class="menuItem"><a class="menuItem" href="/">Головна</a></li>
+      <li class="menuItem"><a class="menuItem" href="#aboutUsBlock">Про нас</a></li>
+      <li class="menuItem"><a class="menuItem" href="#ourServiceBlock">Послуги</a></li>
+      <li class="menuItem"><a class="menuItem" routerLinkActive="active"  href="../gallery">Галерея</a></li>
+      <li class="menuItem"><a class="menuItem" href="#contactsBlock">Контакти</a></li>
+    </ul>
+  </div>
+</div>
+<div class="ourPtoject">
+  <div class="titleBlock ">
+    <div class="backgroundTitle">
+
+      <div class="col-md-5 text-center titleLogo">
+        <img width="235" height="300" src="http://new-glass.com.ua/wp-content/uploads/2018/08/12-235x300.png" class="attachment-medium size-medium" alt="" srcset="http://new-glass.com.ua/wp-content/uploads/2018/08/12-235x300.png 235w, http://new-glass.com.ua/wp-content/uploads/2018/08/12.png 317w" sizes="(max-width: 235px) 100vw, 235px">
+      </div>
+      <div class="col-md-7 titleLogo">
+
+        <h1>{{products.title}}</h1>
+        <h5>Сміливі ідеї у склі.</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid photoStyle">
+
+  <div class="row" >
+    <div class="col-md-6" *ngFor="let image of  products.images">
+      <img height="900px" width="100%" src="{{image.src}}">
+    </div>
+
+  </div>
+
+
+  <div id="contactsBlock" class="contactsBaground">
+    <div class="container">
+      <div class="col-md-8">
+        <h2>Є ідея? Ми допоможемо з реалізацією.</h2>
+
+        <p>Команда професіоналів, разом із сучасним обладнанням по обробці скла та дзеркала у Львові, готові взятись за Ваш проект і виконати роботу на найвищому рівні.</p>
+        <h2>Дзвоніть вже зараз, щоб отримати консультацію.</h2>
+      </div>
+      <div class="col-md-4">
+
+        <div class="text-center">
+          <div class="contactButtonNumber">
+            <a href="tel:+380967111555" class="buttonNumberPhone" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i class="fa fa-phone-square" aria-hidden="true"></i>
+			</span>
+						<span class="elementor-button-text">096-7-111-555</span>
+		</span>
+            </a></div>
+          <div class="contactButtonNumber">
+            <a href="tel:+380967111555" class="buttonNumberPhone" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i class="fa fa-phone-square" aria-hidden="true"></i>
+			</span>
+						<span class="elementor-button-text">096-7-111-555</span>
+		</span>
+            </a></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>

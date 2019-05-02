@@ -1,0 +1,228 @@
+
+.text-center{
+  text-align: center;
+}
+.imageBlock{
+  margin-top: 10px;
+}
+.ourServiceBlock h1{
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.26);
+}
+.ourServiceBlock p{
+  color: #545454;
+  font-size: 18px;
+}
+.ourServiceBlock h2{
+  color: #545454;
+  margin: 70px 0px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.ourWare h3{
+  color: #000000;
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 40px 0px 18px 0px;
+}
+.ourWare img {
+  width: 50px;
+  height: 60px;
+
+}
+.ourWare{
+  text-align: left;
+}
+.photoProject img{
+  height: 397px;
+  max-width: 100%;
+}
+.photoProject{
+  display: inline-block;
+}
+.aboutUsBlock img{
+  width:60%;
+}
+.aboutUsBlock{
+  text-align: center;
+}
+p{
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 16px;
+  color: #7a7a7a;
+}
+.contactsBaground{
+  background: #3a3a3a;
+  color: white;
+}
+.contactsBaground span{
+  padding: 22px 13px 39px 0px;
+}
+.buttonNumberPhone{
+  margin: 30px 0px;
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  background-color: rgba(64,100,215,0);
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 30px 15px 30px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ffffff;
+}
+.contactButtonNumber{
+  margin: 50px 0px;
+}
+.workSchedule{
+  border-top-style: solid;
+  border-top-width: 1px;
+  width: 100%;
+}
+.workSchedule table{
+  width: 100%;
+  text-align: left;
+}
+.workSchedule thead tr th {
+  padding: 20px 15px;
+  color: #000000;
+  background-color: rgba(229,229,229,0.83);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Comfortaa", Sans-serif;
+  line-height: 1;
+  border-color: #000;
+  border-width: 2px;
+  border-style: none;
+  background-clip: padding-box;
+}
+.workSchedule tbody tr td {
+  padding: 20px 15px;
+  font-size: 14px;
+  font-family: "Montserrat", "sans-serif";
+  line-height: 1;
+  border-width: 2px;
+  border-style: none;
+  background-clip: padding-box;
+  background-color: #f2f2f2;
+  color: black;
+  font-family: "Comfortaa", Sans-serif;
+}
+.sendButtonMaill{
+  display: inline-block;
+  width: 200px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: rgba(12,12,12,0.7);
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  border-radius: 50px;
+  color: #000000;
+  padding: 17px 20px 44px 24px;
+  background-color: #23d1c8;
+}
+.inputMeassege{
+  margin: 8px;
+  border-radius: 9px;
+  padding: 9px;
+}
+
+.ourProject figure img {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  width: 100%;
+  height: 500px;
+
+}
+.ourProject figure:hover img {
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
+}
+.ourProject div{
+  width: 25%;
+  display: inline-block;
+}
+@media only screen
+and (max-width: 575px) {
+  .imageBlock img{
+    max-width: 100%;
+    height: 400px;
+  }
+  .ourServiceBlock h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.26);
+  }
+  .aboutUsBlock img{
+    width:90%;
+  }
+  .contactsBaground h2 {
+    font-size: 24px;
+  }
+  .inputMeassege{
+    width: 100%;
+  }
+  .workSchedule{
+    margin-bottom: 15px;
+  }
+  .ourServiceBlock p{
+    color: #545454;
+    font-size: 14px;
+  }
+  .ourWare h3{
+    font-size: 17px;
+
+  }
+  .ourWare img {
+    width: 40px;
+    height: 50px;
+
+  }
+}
+@media only screen
+and (max-width: 1335px) {
+  .ourProject div{
+    width: 50%;
+    display: inline-block;
+    height: 500px;
+  }
+  .aboutUsBlock img{
+    width:100%;
+  }
+  .aboutUsBlock{
+    text-align: unset;
+    padding: 10px;
+  }
+  .workSchedule{
+    margin-bottom: 15px;
+  }
+
+}
+@media only screen
+and (max-width: 500px) {
+  .ourProject div{
+    width: 100%;
+    display: inline-block;
+    height: 500px;
+  }
+  .ourServiceBlock{
+    padding: 0 10px;
+  }
+  .imageBlock{
+    padding: 0 10px;
+  }
+
+}
+@media only screen
+and (max-width: 800px) {
+  .imageBlock img{
+    width: 575px;
+  }
+}

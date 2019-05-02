@@ -1,0 +1,70 @@
+.text-center{
+  text-align: center;
+}
+.inform{
+  font-family: 'Varela Round',sans-serif;
+}
+.buttonMore{
+  background-color: #54595f;
+  border-color: #54595f;
+  margin-top: 10px;
+}
+.showersBlock .informBlock{
+  margin-top: 40%;
+}
+.stairsBlock .informBlock{
+  margin-top: 15%;
+}
+.ourGoods{
+  margin: 30px 0px;
+}
+.ourGoods h1{
+  font-size: 42px;
+}
+.doorsBlock .informBlock{
+  margin-top: 25%;
+}
+.railingsBlock img{
+  width: 100%;
+}
+.marginInform{
+  margin-top: 20%;
+}
+p{
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 16px;
+
+}
+.ourGoods img{
+  width: 100%;
+
+}
+@media only screen
+and (max-width: 575px) {
+  .ourGoods img{
+    width: 100%;
+    height: 350px;
+  }
+  .ourGoods h1{
+    font-size: 27px;
+  }
+  .showersBlock .informBlock{
+    margin-top: 0px;
+  }
+  .doorsBlock .informBlock{
+    margin-top: 0px;
+  }
+
+}
+@media only screen
+and (max-width: 1000px) {
+  .showersBlock .informBlock{
+    margin-top: 0px;
+  }
+  .doorsBlock .informBlock{
+    margin-top: 0px;
+  }
+  .buttonMore{
+    margin: 10px;
+  }
+}

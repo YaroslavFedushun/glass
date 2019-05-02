@@ -1,0 +1,77 @@
+.text-center{
+  text-align: center;
+}
+.headerBlock{
+  text-align: center;
+  background-image: url(http://new-glass.com.ua/wp-content/uploads/2018/12/steklyannye_dushevye_peregorodki.jpg);
+  background-position: center center;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 1px 0px 250px 0px;
+  background-attachment: fixed;
+}
+.menuItem{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  color: black;
+}
+.menuList{
+
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.logoTitle{
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 68px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: #0c0c0c;
+}
+.headerLogoBlock p{
+  color: #0c0c0c;
+  font-family: "Comfortaa", Sans-serif;
+  line-height: 24px;
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+.headerButton{
+  font-family: "Comfortaa", Sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3.7px;
+  color: #0c0c0c;
+  background-color: rgba(142,142,142,0.82);
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+
+}
+.headerMenuPhone{
+  display: none;
+  position: fixed;
+  z-index: 100;
+}
+@media only screen
+and (max-width: 575px) {
+.headerLogoBlock img{
+  width: 300px;
+}
+  .logoTitle{
+    font-size: 32px;
+  }
+}
+@media only screen
+and (max-width: 1100px) {
+  .headerMenuPhone{
+    display: block;
+  }
+  .headerMenu{
+    display: none;
+  }
+
+}

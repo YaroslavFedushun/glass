@@ -1,0 +1,20 @@
+<!--<form >-->
+  <!--<input type="text"  name="subject" placeholder="Subject" />-->
+  <!--<textarea name="text"  placeholder="Message"></textarea>-->
+  <!--<input type="submit"  value="Send" />-->
+
+  <!--&lt;!&ndash; not required, but we'd appreciate it if you'd link to us somewhere on your site &ndash;&gt;-->
+  <!--<p>Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>-->
+<!--</form>-->
+
+
+  <form  (ngSubmit)="sendEmail($event)" novalidate [formGroup]="messageForm" action="/#wpcf7-f526-p8-o1" method="post" id="javascript_form" class="wpcf7-form" >
+
+    <label><span class="wpcf7-form-control-wrap your-name"><input type="text"  pInputText formControlName="name" name="yourname" value="" size="40" class="inputMeassege wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Ваше ім'я"></span> </label><br>
+      <label><span class="wpcf7-form-control-wrap your-email"><input type="email"  pInputText formControlName="email" name="your-email" value="" size="40" class=" inputMeassege wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Ваш email"></span> </label><br>
+      <label><span class="wpcf7-form-control-wrap placeholder"><input type="tel" pInputText formControlName="number" name="your-phone" value="" size="40" class=" inputMeassege wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Ваш номер телефону"></span> </label><br>
+      <label><span class="wpcf7-form-control-wrap your-message"><textarea pInputText formControlName="message" name="your-message" cols="40" rows="10" class=" inputMeassege wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Ваше повідомлення"></textarea></span> </label><br>
+      <input type="submit"  id="js_send" value="Надіслати."  class="form-control submit sendButtonMaill"><span class="ajax-loader"></span>
+    <div class="wpcf7-response-output wpcf7-display-none"></div></form>
+
+
